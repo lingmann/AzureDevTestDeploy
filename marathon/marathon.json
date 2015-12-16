@@ -14,7 +14,7 @@
           "requirePorts": true,
           "container": {
             "docker": {
-              "image": "adtd/web:stage",
+              "image": "lingmann/web:stage",
               "network": "HOST",
               "forcePullImage": true
             },
@@ -35,7 +35,7 @@
           "requirePorts": true,
           "container": {
             "docker": {
-              "image": "adtd/rest:stage",
+              "image": "lingmann/rest:stage",
               "network": "HOST",
               "forcePullImage": true
             },

@@ -1,11 +1,11 @@
 web:
-  image: adtd/web
+  image: lingmann/web
   ports:
     - "80"
   links:
     - rest
 rest:
-  image: adtd/rest
+  image: lingmann/rest
   ports:
     - "8080:8080"
 lb:

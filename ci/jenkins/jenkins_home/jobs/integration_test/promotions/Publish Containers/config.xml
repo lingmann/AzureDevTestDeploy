@@ -18,10 +18,10 @@
   <icon>star-gold</icon>
   <buildSteps>
     <hudson.tasks.Shell>
-      <command>docker build -t adtd/web:stage web
-docker push adtd/web:stage
-docker build -t adtd/rest:stage java
-docker push adtd/rest:stage</command>
+      <command>docker build -t lingmann/web:stage web
+docker push lingmann/web:stage
+docker build -t lingmann/rest:stage java
+docker push lingmann/rest:stage</command>
     </hudson.tasks.Shell>
   </buildSteps>
 </hudson.plugins.promoted__builds.PromotionProcess>
